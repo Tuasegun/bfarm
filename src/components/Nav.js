@@ -34,7 +34,8 @@ export default function Nav() {
 }
 
 const NavBar = styled.nav`
-  padding: 2rem 1rem;
+  padding: 2rem 1.5rem;
+  min-height: 20vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,7 +43,7 @@ const NavBar = styled.nav`
   .nav-icon {
     position: absolute;
     top: 3.5rem;
-    left: 2rem;
+    left: 1.5rem;
   }
   .nav-links {
     ul {
