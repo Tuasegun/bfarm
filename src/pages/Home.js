@@ -3,6 +3,7 @@ import styled from "styled-components";
 import flower from "../images/flower.svg";
 import vector from "../images/Vector 1.svg";
 import corn from "../images/corn-isolated 1.png";
+import arrow from "../images/arrow.svg";
 
 export default function Home() {
   return (
@@ -24,6 +25,9 @@ export default function Home() {
         </div>
         <div className="home-button">
           <button>Read more</button>
+          <span>
+            <img src={arrow} alt="arrow" />
+          </span>
         </div>
       </div>
       <div className="home-image">
@@ -34,7 +38,6 @@ export default function Home() {
 }
 
 const HomeContainer = styled.div`
-  min-height: 80vh;
   margin: 0rem 1.5rem;
   background: #f9fff8;
   padding: 3rem 5rem;
@@ -73,5 +76,35 @@ const HomeContainer = styled.div`
     img {
       width: 100%;
     }
+    @media screen and (max-width: 765px) {
+      display: none;
+    }
+  }
+  .home-button {
+    display: flex;
+    align-items: center;
+    padding-top: 1.5rem;
+
+    span {
+      background: #43a22a;
+      padding: 1.3rem;
+      cursor: pointer;
+    }
+    button {
+      padding: 1.3rem 1.5rem;
+      border: none;
+      background: #f4faf2;
+      border: 2px solid #43a22a;
+      cursor: pointer;
+      color: #3f4042;
+      font-family: "Avenir";
+      letter-spacing: 0.06em;
+      text-transform: capitalize;
+    }
+  }
+  @media screen and (max-width: 765px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 `;
