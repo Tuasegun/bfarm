@@ -40,7 +40,7 @@ export default function Home() {
 const HomeContainer = styled.div`
   margin: 0rem 1.5rem;
   background: #f9fff8;
-  padding: 3rem 5rem;
+  padding: 2rem 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -89,6 +89,7 @@ const HomeContainer = styled.div`
       background: #43a22a;
       padding: 1.3rem;
       cursor: pointer;
+      border: none;
     }
     button {
       padding: 1.3rem 1.5rem;
@@ -106,5 +107,6 @@ const HomeContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3rem 1rem;
   }
 `;

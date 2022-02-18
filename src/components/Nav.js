@@ -165,7 +165,7 @@ const MobileNav = styled.nav`
       .hamburger-btn {
         width: 2.125rem;
         height: 0.275rem;
-        background: black;
+        background: #3f4042;
         border-radius: 0.4rem;
         transition: all 0.5s ease-in-out;
         &::before,
@@ -174,7 +174,7 @@ const MobileNav = styled.nav`
           position: absolute;
           width: 2.5em;
           height: 0.275rem;
-          background: black;
+          background: #3f4042;
           border-radius: 0.4rem;
           transition: all 0.5s ease-in-out;
         }
@@ -210,7 +210,7 @@ const MobileNav = styled.nav`
     left: 0;
     background: #ffffff;
     width: 100%;
-    height: 50%;
+    height: 33%;
     display: grid;
     justify-content: center;
 
@@ -223,7 +223,7 @@ const MobileNav = styled.nav`
     li {
       padding-bottom: 1rem;
       a {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
       }
     }
   }

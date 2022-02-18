@@ -33,7 +33,7 @@ export default function About() {
 const AboutContainer = styled.div`
   margin: 0rem 1.5rem;
   background: #f9fff8;
-  padding: 3rem 5rem;
+  padding: 2rem 5rem;
   .about-content {
     display: flex;
     justify-content: space-between;
@@ -49,5 +49,20 @@ const AboutContainer = styled.div`
         width: 80%;
       }
     }
+    @media screen and (max-width: 765px) {
+      display: flex;
+      flex-direction: column-reverse;
+      .about-text {
+        padding-top: 2rem;
+      }
+      .about-image {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 765px) {
+    padding: 3rem 1rem;
   }
 `;
