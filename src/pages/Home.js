@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import flower from "../components/images/flower.svg";
 import vector from "../components/images/Vector 1.svg";
-import corn from "../components/images/corn-isolated 1.png";
+
 import arrow from "../components/images/arrow.svg";
 import Slider from "../components/slider/Slider";
 
