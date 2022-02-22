@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import farmGallery from "../images/image-1.svg";
+import farmGallery from "../components/images/image-1.svg";
 
 export default function About() {
   return (

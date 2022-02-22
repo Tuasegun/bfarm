@@ -1,9 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import flower from "../images/flower.svg";
-import vector from "../images/Vector 1.svg";
-import corn from "../images/corn-isolated 1.png";
-import arrow from "../images/arrow.svg";
+import flower from "../components/images/flower.svg";
+import vector from "../components/images/Vector 1.svg";
+import corn from "../components/images/corn-isolated 1.png";
+import arrow from "../components/images/arrow.svg";
+import Slider from "../components/slider/Slider";
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ export default function Home() {
         </div>
       </div>
       <div className="home-image">
-        <img src={corn} alt="corn" />
+        <Slider />
       </div>
     </HomeContainer>
   );
@@ -72,9 +73,8 @@ const HomeContainer = styled.div`
     }
   }
   .home-image {
-    img {
-      width: 100%;
-    }
+    max-width: 30rem;
+
     @media screen and (max-width: 765px) {
       display: none;
     }

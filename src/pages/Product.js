@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import pigs from "../images/pig-farm.png";
-import garri from "../images/garri.png";
+import pigs from "../components/images/pig-farm.png";
+import garri from "../components/images/garri.png";
 
 export default function Product() {
   return (

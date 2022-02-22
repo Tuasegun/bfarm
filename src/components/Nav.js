@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import navIcon from "../images/nav-icon.svg";
-import logo from "../images/logo.svg";
+import navIcon from "./images/nav-icon.svg";
+import logo from "./images/logo.svg";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 

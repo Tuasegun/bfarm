@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import illustration from "../images/illustration.png";
+import illustration from "../components/images/illustration.png";
 
 export default function Invest() {
   return (
