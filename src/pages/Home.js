@@ -18,9 +18,8 @@ export default function Home() {
         </div>
         <div className="text-content">
           <p>
-            Food Farming is proud of our past and excited about our future. We
-            strive to continue being one of India and New Zealand's great food
-            companies, offering quality fruits and vegetable.
+            Bifarin Farms is a 15-acre farm in Osu, Osun State, Nigeria. Our
+            goal is to be one of the finest farms in Africa.
           </p>
         </div>
         <div className="home-button">

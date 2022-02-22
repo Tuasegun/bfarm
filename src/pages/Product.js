@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import pigs from "../images/pigs.png";
+import pigs from "../images/pig-farm.png";
 import garri from "../images/garri.png";
 
 export default function Product() {
@@ -9,14 +9,14 @@ export default function Product() {
       <div className="product-content">
         <div className="product-list">
           <div className="sub-header">
-            <span>Pig Farming</span>
+            <span>Live Pigs</span>
           </div>
           <div className="text">
             <p>
-              "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo.
+              Presently we rear and sell live Pigs, and some of our customers
+              come from all over Nigeria, including, but not limited to, Ogun
+              State and Edo-State. Our breeds include Large white, Duroc Jersey,
+              Landrace and their crosses.
             </p>
           </div>
           <div className="product-btn">
@@ -35,10 +35,10 @@ export default function Product() {
           </div>
           <div className="text">
             <p>
-              "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo.
+              In 2020, we launched our trademarked brand Gbogberin; and our
+              first product under this brand is Garri, processed using our
+              cassava plantation. You can buy our products by contacting
+              +2348035530767
             </p>
           </div>
           <div className="product-btn">

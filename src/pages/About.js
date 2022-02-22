@@ -8,18 +8,14 @@ export default function About() {
       <div className="about-content">
         <div className="about-text">
           <p>
-            Food Farming is proud of our past and excited about our future. We
-            strive to continue being one of India and New Zealand's great food
-            companies, offering quality fruits and vegetable. Food Farming is
-            proud of our past and excited about our future. We strive to
-            continue being one of India and New Zealand's great food companies,
-            offering quality fruits and vegetable. Food Farming is proud of our
-            past and excited about our future. We strive to continue being one
-            of India and New Zealand's great food companies, offering quality
-            fruits and vegetable. Food Farming is proud of our past and excited
-            about our future. We strive to continue being one of India and New
-            Zealand's great food companies, offering quality fruits and
-            vegetable.
+            Bifarin Farms is a family owned-farm founded by Olatomiwa and
+            Olatokunbo Bifarin. The farm is led by Olatokunbo Bifarin, Ph.D., an
+            agricultural expert with a doctorate in agricultural economics. He
+            has over 20 years of experience teaching agriculturists and farmers
+            at the Federal College of Agriculture, Akure, Nigeria. Bifarin Farms
+            has an array of enterprises, including livestock production such as
+            pig and cattle farming. Planting production such as cassava farming
+            and value-added products such as Garri.
           </p>
         </div>
         <div className="about-image">
