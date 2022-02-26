@@ -26,8 +26,8 @@ const Slider = () => {
 
             color: "white",
             cursor: "pointer",
-            height: "20px",
-            width: "20px",
+            height: "10px",
+            width: "10px",
             borderRadius: "50%",
             background: "#DBDBDB",
           };

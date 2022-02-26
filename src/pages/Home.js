@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import flower from "../components/images/flower.svg";
 import vector from "../components/images/Vector 1.svg";
-
 import arrow from "../components/images/arrow.svg";
 import Slider from "../components/slider/Slider";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -23,12 +23,14 @@ export default function Home() {
             goal is to be one of the finest farms in Africa.
           </p>
         </div>
-        <div className="home-button">
-          <button>Read more</button>
-          <span>
-            <img src={arrow} alt="arrow" />
-          </span>
-        </div>
+        <Link to="/About">
+          <div className="home-button">
+            <button>Read more</button>
+            <span>
+              <img src={arrow} alt="arrow" />
+            </span>
+          </div>
+        </Link>
       </div>
       <div className="home-image">
         <Slider />

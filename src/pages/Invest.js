@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import illustration from "../components/images/illustration.png";
+import { Link } from "react-router-dom";
 
 export default function Invest() {
   return (
@@ -17,17 +18,39 @@ export default function Invest() {
               this first round of investment, a person/entity can invest in up
               to five 'packages' worth N500,000 each. Return of investment is at
               35% after an incubation period of 8 months.  Please download this
-              investor contract <span>here</span> if you have reserved
-              package(s) through any farm representatives. Then, pay the money
-              to this account number …….. and forward a signed investor contract
-              to bifarinfarms@gmail.com. The final copy of the investor contract
-              will be sent to the investor shortly afterward. If you are not
-              able to make this round, be sure to indicate <span>here</span>.
-              Our next round of investment will open July of this year.
+              investor contract{" "}
+              <span>
+                <a
+                  href="https://pdf.ac/14dyua"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  here{" "}
+                </a>
+              </span>
+              if you have reserved package(s) through any farm representatives.
+              Then, pay the money to this account number …….. and forward a
+              signed investor contract to bifarinfarms@gmail.com. The final copy
+              of the investor contract will be sent to the investor shortly
+              afterward. If you are not able to make this round, be sure to
+              indicate{" "}
+              <span>
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScjZ5Kht4XNW9gvQcWN3MmSzpSUmYI6Unagk-81npjDFttEHA/viewform?usp=sf_link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  here
+                </a>
+              </span>
+              . Our next round of investment will open July of this year.
             </p>
           </div>
+
           <div className="invest-btn">
-            <button>Download</button>
+            <a href="https://pdf.ac/14dyua" target="_blank" rel="noreferrer">
+              <button>INVEST NOW</button>
+            </a>
           </div>
         </div>
         <div className="about-image">
@@ -57,7 +80,10 @@ const InvestContainer = styled.div`
         p {
           line-height: 1.6;
           span {
-            color: #43a22a;
+            a {
+              color: #43a22a;
+            }
+
             font-weight: bold;
           }
         }

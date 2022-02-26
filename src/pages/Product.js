@@ -20,7 +20,7 @@ export default function Product() {
             </p>
           </div>
           <div className="product-btn">
-            <button>See Catalogue</button>
+            <button>Short Video</button>
           </div>
         </div>
         <div className="product-image">
@@ -40,9 +40,6 @@ export default function Product() {
               cassava plantation. You can buy our products by contacting
               +2348035530767
             </p>
-          </div>
-          <div className="product-btn">
-            <button>See Catalogue</button>
           </div>
         </div>
         <div className="product-image">
