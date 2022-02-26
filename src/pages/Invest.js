@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import illustration from "../components/images/illustration.png";
-import { Link } from "react-router-dom";
 
 export default function Invest() {
   return (
