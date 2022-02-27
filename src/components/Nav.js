@@ -128,7 +128,7 @@ export default function Nav() {
             </li>
             <li>
               <Link
-                to="/Invest"
+                to="/Gallery"
                 onClick={closeNav}
                 style={pathname === "/Gallery" ? active : defaultColor}
               >
