@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Product from "./pages/Product";
 import Invest from "./pages/Invest";
+import Gallery from "./pages/Gallery";
 import GlobalStyles from "./components/styles/GlobalStyles";
 import Nav from "./components/Nav";
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Products" element={<Product />} />
         <Route path="/Invest" element={<Invest />} />
+        <Route path="/Gallery" element={<Gallery />} />
       </Routes>
     </div>
   );

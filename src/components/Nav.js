@@ -70,6 +70,14 @@ export default function Nav() {
                 Invest
               </Link>
             </li>
+            <li>
+              <Link
+                to="/Gallery"
+                style={pathname === "/Gallery" ? active : defaultColor}
+              >
+                Gallery
+              </Link>
+            </li>
           </ul>
         </div>
       </NavBar>
@@ -116,6 +124,15 @@ export default function Nav() {
                 style={pathname === "/Invest" ? active : defaultColor}
               >
                 Invest
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/Invest"
+                onClick={closeNav}
+                style={pathname === "/Gallery" ? active : defaultColor}
+              >
+                Gallery
               </Link>
             </li>
           </ul>
