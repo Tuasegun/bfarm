@@ -44,7 +44,7 @@ export default function Product() {
               +2348035530767
             </p>
           </div>
-          <Link to="/Gallery">
+          <Link to="/garri-gallery">
             <div className="product-btn">
               <button>Gallery</button>
             </div>

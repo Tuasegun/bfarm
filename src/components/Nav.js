@@ -72,10 +72,10 @@ export default function Nav() {
             </li>
             <li>
               <Link
-                to="/Gallery"
-                style={pathname === "/Gallery" ? active : defaultColor}
+                to="/Contact"
+                style={pathname === "/Contact" ? active : defaultColor}
               >
-                Gallery
+                Contact Us
               </Link>
             </li>
           </ul>
@@ -128,11 +128,11 @@ export default function Nav() {
             </li>
             <li>
               <Link
-                to="/Gallery"
+                to="/Contact"
                 onClick={closeNav}
-                style={pathname === "/Gallery" ? active : defaultColor}
+                style={pathname === "/Contact" ? active : defaultColor}
               >
-                Gallery
+                Contact Us
               </Link>
             </li>
           </ul>
