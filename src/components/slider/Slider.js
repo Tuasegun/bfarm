@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import banner from "../images/banner.png";
+import banner from "../images/pig-new.png";
 import maize from "../images/corn-isolated 1.png";
 
 const Slider = () => {

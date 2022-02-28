@@ -16,34 +16,51 @@ export default function Invest() {
               public in its farming enterprises, starting with the pig farm. In
               this first round of investment, a person/entity can invest in up
               to five 'packages' worth N500,000 each. Return of investment is at
-              35% after an incubation period of 8 months.  Please download this
-              investor contract{" "}
-              <span>
-                <a
-                  href="https://pdf.ac/14dyua"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  here{" "}
-                </a>
-              </span>
-              if you have reserved package(s) through any farm representatives.
-              Then, pay the money to this account number …….. and forward a
-              signed investor contract to bifarinfarms@gmail.com. The final copy
-              of the investor contract will be sent to the investor shortly
-              afterward. If you are not able to make this round, be sure to
-              indicate{" "}
-              <span>
-                <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLScjZ5Kht4XNW9gvQcWN3MmSzpSUmYI6Unagk-81npjDFttEHA/viewform?usp=sf_link"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  here
-                </a>
-              </span>
-              . Our next round of investment will open July of this year.
+              35% after an incubation period of 8 months.  If you have reserved
+              any package(s) through a farm representative, please follow the
+              listed steps below
             </p>
+            <ol>
+              <li>
+                Make your payment to
+                <br />
+                Account number:
+                <br />
+                Account Name:
+              </li>
+              <li>Screen-shot a copy of your receipt of investment</li>
+              <li>
+                Click{" "}
+                <span>
+                  <a
+                    href="https://pdf.ac/14dyua"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    here
+                  </a>
+                </span>{" "}
+                to fill the Investment Contract
+              </li>
+              <li>
+                Follow the prompts to upload your receipt of investment (This
+                comes last while completing the Online Contract) Within the next
+                24hrs, you will be emailed the countersign contract for your
+                reference.. If you are not able to make this round, be sure to
+                indicate
+                <span>
+                  {" "}
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScjZ5Kht4XNW9gvQcWN3MmSzpSUmYI6Unagk-81npjDFttEHA/viewform?usp=sf_link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    here
+                  </a>
+                </span>{" "}
+                for our next round of investments
+              </li>
+            </ol>
           </div>
 
           <div className="invest-btn">
@@ -76,7 +93,8 @@ const InvestContainer = styled.div`
       }
       .txt {
         padding-bottom: 0.6rem;
-        p {
+        p,
+        ol {
           line-height: 1.6;
           span {
             a {

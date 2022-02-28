@@ -19,9 +19,10 @@ const GlobalStyles = createGlobalStyle`
     img{
         width:100%;
     }
-    p,a{
+    p,a,ol{
         color:#3F4042;
     }
+    
    
 
 `;

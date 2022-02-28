@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import pigs from "../components/images/pig-farm.png";
 import garri from "../components/images/garri.png";
+import { Link } from "react-router-dom";
 
 export default function Product() {
   return (
@@ -19,9 +20,11 @@ export default function Product() {
               Landrace and their crosses.
             </p>
           </div>
-          <div className="product-btn">
-            <button>Short Video</button>
-          </div>
+          <Link to="/Gallery">
+            <div className="product-btn">
+              <button>Gallery</button>
+            </div>
+          </Link>
         </div>
         <div className="product-image">
           <img src={pigs} alt="pigs" />
@@ -41,6 +44,11 @@ export default function Product() {
               +2348035530767
             </p>
           </div>
+          <Link to="/Gallery">
+            <div className="product-btn">
+              <button>Gallery</button>
+            </div>
+          </Link>
         </div>
         <div className="product-image">
           <img src={garri} alt="garri" />
