@@ -50,6 +50,14 @@ export default function Nav() {
               </Link>
             </li>
             <li>
+              <Link
+                to="/Gallery"
+                style={pathname === "/Gallery" ? active : defaultColor}
+              >
+                Gallery
+              </Link>
+            </li>
+            <li>
               <Link to="/">
                 <img src={logo} alt="logo" />
               </Link>
@@ -70,14 +78,7 @@ export default function Nav() {
                 Invest
               </Link>
             </li>
-            <li>
-              <Link
-                to="/Gallery"
-                style={pathname === "/Gallery" ? active : defaultColor}
-              >
-                Gallery
-              </Link>
-            </li>
+
             <li>
               <Link
                 to="/Contact"

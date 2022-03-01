@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import pig1 from "../components/images/image-1.png";
-import pig2 from "../components/images/image-2.png";
-import pig3 from "../components/images/image-3.png";
-import pig4 from "../components/images/image-4.png";
-import pig5 from "../components/images/image-5.png";
+import garri1 from "../components/images/garri-1.png";
+import garri2 from "../components/images/garri-2.png";
+import garri3 from "../components/images/garri-3.png";
+import garri4 from "../components/images/garri-4.png";
+import garri5 from "../components/images/garri-5.png";
 
 function Garri() {
   return (
@@ -15,24 +15,24 @@ function Garri() {
       <GalleryContainer>
         <div className="gallery">
           <div className="flex-image">
-            <a href={pig1}>
-              <img src={pig1} alt="pig" />
+            <a href={garri1}>
+              <img src={garri1} alt="pig" />
             </a>
-            <a href={pig2}>
-              <img src={pig2} alt="pig" />
+            <a href={garri2}>
+              <img src={garri2} alt="pig" />
+            </a>
+            <a href={garri3}>
+              <img src={garri3} alt="pig" />
             </a>
           </div>
         </div>
         <div className="gallery">
           <div className="flex-image2">
-            <a href={pig3}>
-              <img src={pig3} alt="pig" />
+            <a href={garri4}>
+              <img src={garri4} alt="pig" />
             </a>
-            <a href={pig4}>
-              <img src={pig4} alt="pig" />
-            </a>
-            <a href={pig5}>
-              <img src={pig5} alt="pig" />
+            <a href={garri5}>
+              <img src={garri5} alt="pig" />
             </a>
           </div>
         </div>
@@ -68,7 +68,7 @@ const GalleryContainer = styled.div`
       column-gap: 1rem;
       padding: 0.5rem 0;
       img {
-        height: 60vh;
+        height: 50vh;
         object-fit: cover;
       }
       @media screen and (max-width: 800px) {

@@ -24,11 +24,11 @@ export default function Invest() {
               <li>
                 Make your payment to
                 <br />
-                Account number:
+                Account number: 2012354571
                 <br />
-                Account Name:
+                Account Name: Bifarin John Olatokunbo
                 <br />
-                Bank Name:
+                Bank Name: First Bank
               </li>
               <li>Screen-shot a copy of your receipt of investment</li>
               <li>
