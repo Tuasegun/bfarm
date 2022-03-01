@@ -27,6 +27,8 @@ export default function Invest() {
                 Account number:
                 <br />
                 Account Name:
+                <br />
+                Bank Name:
               </li>
               <li>Screen-shot a copy of your receipt of investment</li>
               <li>
@@ -46,8 +48,8 @@ export default function Invest() {
                 Follow the prompts to upload your receipt of investment (This
                 comes last while completing the Online Contract) Within the next
                 24hrs, you will be emailed the countersign contract for your
-                reference.. If you are not able to make this round, be sure to
-                indicate
+                reference. If you are not able to make this round, be sure to
+                reserve your
                 <span>
                   {" "}
                   <a
@@ -55,7 +57,7 @@ export default function Invest() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    here
+                    spot
                   </a>
                 </span>{" "}
                 for our next round of investments

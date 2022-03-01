@@ -38,10 +38,9 @@ export default function Product() {
           </div>
           <div className="text">
             <p>
-              In 2020, we launched our trademarked brand Gbogberin; and our
-              first product under this brand is Garri, processed using our
-              cassava plantation. You can buy our products by contacting
-              +2348035530767
+              In 2021, we launched our trademarked brand Gbogberin; and our
+              first product under this brand is Garri, processed using cassava
+              produced in the farm .
             </p>
           </div>
           <Link to="/garri-gallery">
@@ -52,6 +51,17 @@ export default function Product() {
         </div>
         <div className="product-image">
           <img src={garri} alt="garri" />
+        </div>
+      </div>
+      <div className="product-content">
+        <div className="text">
+          You can buy our products by contacting <br />
+          us{" "}
+          <span>
+            <Link to="/Contact" style={{ color: "#43a22a" }}>
+              here
+            </Link>
+          </span>
         </div>
       </div>
     </ProductContainer>
@@ -66,7 +76,7 @@ const ProductContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    color: #3f4042;
     .product-list {
       .sub-header {
         span {
@@ -78,9 +88,7 @@ const ProductContainer = styled.div`
       .text {
         padding: 1.5rem 0;
         max-width: 30rem;
-        p {
-          line-height: 1.6;
-        }
+        line-height: 1.6;
       }
       .product-btn {
         button {

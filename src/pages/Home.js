@@ -19,7 +19,7 @@ export default function Home() {
         </div>
         <div className="text-content">
           <p>
-            Bifarin Farms is a 15-acre farm in Osu, Osun State, Nigeria. Our
+            Bifarin Farms is a 20-acre farm in Osu, Osun State, Nigeria. Our
             goal is to be one of the finest farms in Africa.
           </p>
         </div>

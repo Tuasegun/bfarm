@@ -72,6 +72,14 @@ export default function Nav() {
             </li>
             <li>
               <Link
+                to="/Gallery"
+                style={pathname === "/Gallery" ? active : defaultColor}
+              >
+                Gallery
+              </Link>
+            </li>
+            <li>
+              <Link
                 to="/Contact"
                 style={pathname === "/Contact" ? active : defaultColor}
               >
@@ -124,6 +132,15 @@ export default function Nav() {
                 style={pathname === "/Invest" ? active : defaultColor}
               >
                 Invest
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/Gallery"
+                onClick={closeNav}
+                style={pathname === "/Gallery" ? active : defaultColor}
+              >
+                Gallery
               </Link>
             </li>
             <li>
@@ -227,7 +244,7 @@ const MobileNav = styled.nav`
     left: 0;
     background: #ffffff;
     width: 100%;
-    height: 33%;
+    height: 37%;
     display: grid;
     justify-content: center;
 

@@ -14,8 +14,8 @@ export default function About() {
             has over 20 years of experience teaching agriculturists and farmers
             at the Federal College of Agriculture, Akure, Nigeria. Bifarin Farms
             has an array of enterprises, including livestock production such as
-            pig and cattle farming. Plantation such as cassava farming and
-            value-added products such as Garri.
+            pig and cattle farming. In addition to plantation such as cassava
+            production and value-added products such as Garri.
           </p>
         </div>
         <div className="about-image">

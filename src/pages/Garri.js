@@ -22,6 +22,8 @@ function Garri() {
               <img src={pig2} alt="pig" />
             </a>
           </div>
+        </div>
+        <div className="gallery">
           <div className="flex-image2">
             <a href={pig3}>
               <img src={pig3} alt="pig" />
@@ -52,13 +54,8 @@ const GalleryHeader = styled.div`
 
 const GalleryContainer = styled.div`
   padding: 2rem 5rem;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  column-gap: 0.7rem;
-  .gallery {
-    flex: 25%;
 
+  .gallery {
     padding: 0 4px;
     img {
       margin-top: 8px;
@@ -67,18 +64,38 @@ const GalleryContainer = styled.div`
     }
     .flex-image {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       column-gap: 1rem;
       padding: 0.5rem 0;
+      img {
+        height: 60vh;
+        object-fit: cover;
+      }
+      @media screen and (max-width: 800px) {
+        img {
+          height: 40vh;
+          object-fit: cover;
+        }
+      }
     }
     .flex-image2 {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       column-gap: 1rem;
       padding: 0.5rem 0;
+      img {
+        height: 50vh;
+        object-fit: cover;
+      }
+      @media screen and (max-width: 800px) {
+        img {
+          height: 40vh;
+          object-fit: cover;
+        }
+      }
     }
     @media screen and (max-width: 800px) {
-      flex: 50%;
+      flex: 100%;
     }
     @media screen and (max-width: 600px) {
       flex: 100%;
@@ -86,6 +103,9 @@ const GalleryContainer = styled.div`
   }
   @media screen and (max-width: 765px) {
     padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
 `;
 

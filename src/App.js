@@ -9,12 +9,14 @@ import Contact from "./pages/Contact";
 import Garri from "./pages/Garri";
 import GlobalStyles from "./components/styles/GlobalStyles";
 import Nav from "./components/Nav";
+import ScrollTop from "./components/ScrollTop";
 
 function App() {
   return (
     <div className="App">
       <GlobalStyles />
       <Nav />
+      <ScrollTop />
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/About" element={<About />} />
