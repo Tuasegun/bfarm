@@ -35,7 +35,7 @@ export default function Invest() {
                 Click{" "}
                 <span>
                   <a
-                    href="https://pdf.ac/14dyua"
+                    href="https://pdf.ac/18WfEt"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -66,7 +66,7 @@ export default function Invest() {
           </div>
 
           <div className="invest-btn">
-            <a href="https://pdf.ac/14dyua" target="_blank" rel="noreferrer">
+            <a href="https://pdf.ac/18WfEt" target="_blank" rel="noreferrer">
               <button>INVEST NOW</button>
             </a>
           </div>
