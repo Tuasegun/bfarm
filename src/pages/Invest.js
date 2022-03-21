@@ -11,7 +11,7 @@ export default function Invest() {
             <h1>Looking to invest in our Pig Farm ?</h1>
           </div>
           <div className="txt">
-            <p>
+          <p>
               Bifarin farms present an attractive investment opportunity for the
               public in its farming enterprises, starting with the pig farm. In
               this round of investment, a person/entity can invest in up
@@ -20,7 +20,7 @@ export default function Invest() {
             </p>
            
               <p>
-                 If you are not able to make this round, be sure to
+                 If you are interested, be sure to
                  <span>
                   {" "}
                   <a
@@ -30,8 +30,8 @@ export default function Invest() {
                   >
                 reserve
                 </a>
-                </span>{" "}
-                 your spot for our next round of investments
+                </span>
+                 your spot NOW.Investments will open and close June 2022.
               
             </p>
           </div>
