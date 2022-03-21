@@ -28,10 +28,10 @@ export default function Invest() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                reserve
+                reserve{" "}
                 </a>
                 </span>
-                 your spot NOW.Investments will open and close June 2022.
+                 your spot NOW. Investments will open and close June 2022.
               
             </p>
           </div>
