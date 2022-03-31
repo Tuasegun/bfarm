@@ -31,7 +31,7 @@ export default function Invest() {
                 reserve{" "}
                 </a>
                 </span>
-                 your spot NOW. Investments will open and close June 2022.
+                your spot before the deadline on April 15, 2022. Investments will open and close June 2022.
               
             </p>
           </div>
