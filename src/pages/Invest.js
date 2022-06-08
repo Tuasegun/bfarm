@@ -17,7 +17,7 @@ export default function Invest() {
               this round of investment, a person/entity can invest in up
               to five 'packages' worth N500,000 each. Return of investment is at
               35% after an incubation period of 8 months.  If you have reserved
-              any package(s) through a farm representative, please follow the
+              any package(s) through through our online platform, please follow the
               listed steps below
             </p>
             <ol>
@@ -35,7 +35,7 @@ export default function Invest() {
                 Click{" "}
                 <span>
                   <a
-                    href="https://www.pdffiller.com/en/link_to_fill/1016937981.htm"
+                    href="https://www.pdffiller.com/en/link_to_fill/1022676255.htm"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -48,25 +48,13 @@ export default function Invest() {
                 Follow the prompts to upload your receipt of investment (This
                 comes last while completing the Online Contract) Within the next
                 24hrs, you will be emailed the countersign contract for your
-                reference. If you are not able to make this round, be sure to
-                reserve your
-                <span>
-                  {" "}
-                  <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScjZ5Kht4XNW9gvQcWN3MmSzpSUmYI6Unagk-81npjDFttEHA/viewform?usp=sf_link"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    spot
-                  </a>
-                </span>{" "}
-                for our next round of investments
+                reference.
               </li>
             </ol>
           </div>
 
           <div className="invest-btn">
-            <a href="https://www.pdffiller.com/en/link_to_fill/1016937981.htm" target="_blank" rel="noreferrer">
+            <a href="https://www.pdffiller.com/en/link_to_fill/1022676255.htm" target="_blank" rel="noreferrer">
               <button>INVEST NOW</button>
             </a>
           </div>
