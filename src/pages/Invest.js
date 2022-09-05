@@ -16,46 +16,16 @@ export default function Invest() {
               public in its farming enterprises, starting with the pig farm. In
               this round of investment, a person/entity can invest in up
               to five 'packages' worth N500,000 each. Return of investment is at
-              35% after an incubation period of 8 months.  If you have reserved
-              any package(s) through through our online platform, please follow the
-              listed steps below
+              35% after an incubation period of 8 months.  If you want to reserve
+              any package(s) through through our online platform, please click on the button below
+        
             </p>
-            <ol>
-              <li>
-                Make your payment to
-                <br />
-                Account number: 2012354571
-                <br />
-                Account Name: Bifarin John Olatokunbo
-                <br />
-                Bank Name: First Bank
-              </li>
-              <li>Screen-shot a copy of your receipt of investment</li>
-              <li>
-                Click{" "}
-                <span>
-                  <a
-                    href="https://www.pdffiller.com/en/link_to_fill/1022676255.htm"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    here
-                  </a>
-                </span>{" "}
-                to fill the Investment Contract
-              </li>
-              <li>
-                Follow the prompts to upload your receipt of investment (This
-                comes last while completing the Online Contract) Within the next
-                24hrs, you will be emailed the countersign contract for your
-                reference.
-              </li>
-            </ol>
+            
           </div>
 
           <div className="invest-btn">
-            <a href="https://www.pdffiller.com/en/link_to_fill/1022676255.htm" target="_blank" rel="noreferrer">
-              <button>INVEST NOW</button>
+            <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=ee8xL9plI0Gb_USD4ik86XOIAWcl80BGrOck-tRJe5JUNEpZTEEwODQxVFoyT0E5SlFUOTAzRlJOVCQlQCN0PWcu&embed=true" target="_blank" rel="noreferrer">
+              <button>RESERVE HERE</button>
             </a>
           </div>
         </div>
