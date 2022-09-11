@@ -13,11 +13,9 @@ export default function Invest() {
           <div className="txt">
             <p>
               Bifarin farms present an attractive investment opportunity for the
-              public in its farming enterprises, starting with the pig farm. In
-              this round of investments, a person/entity can invest in up
-              to five 'packages' worth N500,000 each. Return of investment is at
-              35% after an incubation period of 8 months.  If you want to reserve
-              any package(s) through through our online platform, please click on the button below
+              public in its farming enterprises, starting with the pig farm. The Incubation
+              period of investment would be 8 months.  If you want to reserve
+              your investment package. Kindly click on the button below.
         
             </p>
             
