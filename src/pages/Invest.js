@@ -12,10 +12,9 @@ export default function Invest() {
           </div>
           <div className="txt">
             <p>
-              Bifarin farms present an attractive investment opportunity for the
-              public in its farming enterprises, starting with the pig farm. The Incubation
-              period of investment would be 8 months.  If you want to reserve
-              your investment package. Kindly click on the button below.
+            Bifarin farms present an attractive investment opportunity for the public in its farming enterprises,
+             starting with the pig farm. The incubation period of investment would be eight months, and our next investment cycle
+              will start in the first week of November 2022. Click on the button below to reserve your investment package today. Please note that the deadline for reservation is September 30th.
         
             </p>
             
