@@ -10,7 +10,7 @@ function Contact() {
         </div>
         <div className="contact-text">
           <p>+2348035530767</p>
-          <p>bifarinfarms@gmail.com </p>
+          <p>admin@bifarin.com </p>
         </div>
         <div className="location">
           <p>Osu, Off Ilesha Road, Osun State Nigeria </p>
